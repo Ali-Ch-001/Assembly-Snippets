@@ -28,23 +28,18 @@ This repository contains a collection of assembly language snippets and small pr
 1. Choose the desired assembly snippet or program from the repository.
 2. Assemble the code using your preferred assembler. For example, with NASM:
    ```bash
-   nasm -f elf64 snippet.asm -o snippet.o
+   nasm -f elf64 filename.asm -o filename.com
    ```
-3. Link the object file to create an executable. For example, with GCC:
+3. Run the executable:
    ```bash
-   gcc snippet.o -o snippet
-   ```
-4. Run the executable:
-   ```bash
-   ./snippet
+   ./filename.com
    ```
 
 ### Example
 To assemble, link, and run a snippet named `example.asm` using NASM and GCC:
 ```bash
-nasm -f elf64 example.asm -o example.o
-gcc example.o -o example
-./example
+nasm -f elf64 example.asm -o example.com
+./example.com
 ```
 
 ## Snippets
